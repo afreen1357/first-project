@@ -1,0 +1,12 @@
+.side{
+    width: 40vh;
+    height: 100vh;
+    display:inline-block;
+    background-color: rgb(255, 166, 0);
+}
+
+.img{
+    position: absolute;
+    left: 40px;
+    top: 50px;
+}

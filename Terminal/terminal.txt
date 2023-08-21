@@ -1,0 +1,150 @@
+Terminal Commands
+
+(Use Upward and Downward Arrow key to run previous commands)
+
+**Paths: ----------Absolute path = cd /c/Users/Expert/Desktop/Aafreen/Terminal
+	|		  Starts with Slash(/).
+	|
+	|-------Relative path=  cd Aafreen
+			Starts with Directory Name
+
+***     / = Root directory 
+***    ~ =Home directory
+
+***********************************************************************Commands*************************************************************
+
+git --version  : to check git version
+
+ls                   : (List Files) Show my files in directory we are present.
+
+pwd              : (Print Writing Directory) Where we are?
+
+clear             : Clear Screen.
+
+cd                 : Change Desktop.
+
+		Expert@DESKTOP-TFMOHJ7 MINGW64 ~
+		$ cd Desktop
+
+		Expert@DESKTOP-TFMOHJ7 MINGW64 ~/Desktop
+		$
+cd ..               : Back Button of cd
+	
+		Expert@DESKTOP-TFMOHJ7 MINGW64 ~/Desktop/Aafreen
+		$ cd ..
+
+		Expert@DESKTOP-TFMOHJ7 MINGW64 ~/Desktop
+
+		**Let's Assume Our Directory is Desktop/Aafreen/Terminal & we want Desktop as directory using c ..**
+
+			Expert@DESKTOP-TFMOHJ7 MINGW64 ~/Desktop/Aafreen/Terminal
+			$ cd ../..
+
+			Expert@DESKTOP-TFMOHJ7 MINGW64 ~/Desktop
+			$
+		**Let's Get our Old directory Back**
+		
+			Expert@DESKTOP-TFMOHJ7 MINGW64 ~/Desktop
+			$ cd Aafreen/Terminal
+
+			Expert@DESKTOP-TFMOHJ7 MINGW64 ~/Desktop/Aafreen/Terminal
+			$
+
+
+mkdir	      :(Make Directory)Create folder.
+
+***********************************************************************Flags**********************************************************************
+
+Flags are characters that we pass with commands to modify their behaviour.
+
+Manual Command
+
+man ls - 	       give info about ls command.
+
+man mkdir -  give info about mkdir command.
+
+HELP   pwd-    Provides Help information for pwd in Windows commands.
+(The help command is limited and it is not possible to get info about all the commands using help keyword.)
+
+			Expert@DESKTOP-TFMOHJ7 MINGW64 ~/Desktop/Aafreen/Terminal
+			$ help help
+			help: help [-dms] [pattern ...]
+		  	Display information about builtin commands.
+
+    			Displays brief summaries of builtin commands.  If PATTERN is
+    			specified, gives detailed help on all commands matching PATTERN,
+    			otherwise the list of help topics is printed.
+
+    			Options:
+      			-d        output short description for each topic 		//-d is flag
+      			-m        display usage in pseudo-manpage format		//-m is flag and so on....
+      			-s        output only a short usage synopsis for each topic matching
+                				PATTERN
+
+    			Arguments:
+      				PATTERN   Pattern specifying a help topic
+
+    			Exit Status:
+    				Returns success unless PATTERN is not found or an invalid option is given.
+
+			Expert@DESKTOP-TFMOHJ7 MINGW64 ~/Desktop/Aafreen/Terminal
+			$
+
+
+with Flags 
+
+ls -l			Expert@DESKTOP-TFMOHJ7 MINGW64 ~/Desktop/Aafreen
+			$ ls -l
+			total 113
+			-rw-r--r-- 1 Expert 197121  2680 Aug  6 18:05 Introduction.html
+			-rw-r--r-- 1 Expert 197121   185 Aug  6 18:45 Resume.css
+			-rw-r--r-- 1 Expert 197121   882 Aug  6 18:51 Resume.html
+			drwxr-xr-x 1 Expert 197121     0 Aug 13 13:14 Terminal/
+			-rw-r--r-- 1 Expert 197121 99288 Aug  6 16:04 dp.jpg
+			-rw-r--r-- 1 Expert 197121  1332 Aug  6 17:42 intro.css
+
+ls -a 			Displays Hidden Files
+
+			Expert@DESKTOP-TFMOHJ7 MINGW64 /c
+			$ ls -a
+			'$1Recycle.Bin'/                       .GamingRoot              MSOCache/                         Windows/
+			'$Recycle.Bin'/                         Autodesk/                  OneDriveTemp/                 Windows.old/
+			'$SysReset'/                             BC5/                             'Program Files'/                   XboxGames/
+			'$WINDOWS.~BT'/                   BDE32/                        'Program Files (x86)'/         hiberfil.sys
+			'$WINRE_BACKUP_PARTITION.MARKER'                  'Documents and Settings'@   ProgramData/                  pagefile.sys
+			'$WinREAgent'/                     DumpStack.log.tmp          Recovery/                     swapfile.sys
+			 ./                                Intel/                    'System Volume Information'/   zv/
+			 ../                  
+
+*********************************************************************************************Touch Commands****************************************************************************
+
+used to create files
+
+touch index.html
+touch app.js
+touch abc.text
+
+The touch command is basically used to create and modify files and timestamps of files
+
+**************************************************************************************Deleting Files and Folders****************************************************************************
+
+Deleting a file and folder in terminal will permanantly delete the file 
+
+
+rm		: removes files
+
+		Expert@DESKTOP-TFMOHJ7 MINGW64 ~/Desktop/Aafreen/Terminal
+		$ rm abc.txt index.html style.css
+
+rmdir		: removes empty folders
+
+		Expert@DESKTOP-TFMOHJ7 MINGW64 ~/Desktop/Aafreen/Terminal
+		$ rmdir hello
+
+rm-rf		: removes any folder
+
+		Expert@DESKTOP-TFMOHJ7 MINGW64 ~/Desktop/Aafreen/Terminal
+		$ rm -rf Hello
+
+
+

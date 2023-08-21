@@ -1,0 +1,71 @@
+*{
+    font-family: 'Concert One', cursive;
+}
+.head{
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    color: gold;
+    font-weight: 300;
+}
+.navbar-brand{
+    color: orange;
+}
+.card-title,.card-text{
+    color: white;
+}
+.card-text{
+    font-weight:lighter;
+}
+.img-thumbnaill{
+    width: 15%;
+    position: fixed;
+    right: 10vh;
+    border-radius: 10px;
+}
+.img-thumbnaill:hover{
+    box-shadow: 10px 5px 5px rgba(101, 101, 101, 0.781);
+}
+.card{
+    display: inline-block;
+    width: fit-content;
+    left: 20px;
+    right: 20px;
+    color: darkorange;
+}
+.card:hover{
+    box-shadow: 10px 2px 2px rgba(91, 91, 91, 0.781);
+}
+.blockquote-footer{
+    position: absolute;
+    bottom: 1px;
+    right: 20px;
+    color: darkred;
+}
+@media screen and (max-width: 715px) {
+    .img-thumbnaill {
+      border-radius: 50%;
+      display: none;
+      transition-duration: 5s;
+    }
+    .card{
+        position: fixed;
+        left:20px;
+        transition-duration: 5s;
+    }
+
+  }
+
+
+  @media screen and (min-width: 1200px)and (orientation: landscape) {
+    .img-thumbnaill {
+        position: fixed;
+        right: 25%;
+        transition-duration: 5s;
+    }
+    .card{
+        position: fixed;
+        left:15%;
+        transition-duration: 5s;
+    }
+
+  }
