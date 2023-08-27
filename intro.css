@@ -10,6 +10,14 @@
 .navbar-brand{
     color: orange;
 }
+.navbar-brand:hover{
+    color: yellow;
+}
+.nav-link:hover{
+    color: orange;
+    text-shadow: 2cm;
+
+}
 .card-title,.card-text{
     color: white;
 }
