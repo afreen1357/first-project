@@ -1,0 +1,57 @@
+BLACK HAT HACKER
+
+* Black Hat Hacker, also known as crackers, are those who hack in order to gain unauthorized access to a system and 
+harm its operations or steal sensitive information.
+* Black Hat Hacker is always illegal because of its bad intent which includes stealing corporate data, violating privacy, 
+damaging the system, blocking networks.
+
+WHITE HAT HACKER
+* White Hat Hackers are also known as Ethical Hackers. They never intent to harm a system, rather they try to find 
+out weaknesses in a computer or a network system as a part of penetration testing and vulnerability assessments.
+* Ethical Hacking is not illegal and it is one of the demanding jobs available in the IT industry. There are numerous 
+companies that hire ethical hackers for penetration testing and vulnerability assessments.
+
+GRAY HAT HACKER
+* Hacker who is like a coin, two sided. They work for both offensive and defensive work. Generally benefit oriented.
+
+Script Kiddie
+A script kiddie is a non-expert who breaks into computer systems by using pre-packaged automated tools written by 
+others, usually with little understanding of the underlying concept, hence the term kiddie.
+A low-skilled cybercriminal who uses scripts or programs developed by others for attacks without understanding how 
+they work. Script kiddies use ready-made exploit kits or separate programs because they are unable to write malicious 
+tools on their own.
+
+Hacktivism
+Hacktivism is a form of non-violent digital activism where the motive is not, primarily, personal financial gain. Instead, 
+hacktivist campaigns aim to achieve political, social, or religious justice in line with the group’s cause. Hackers use 
+tactics such as doxxing, defacement, and denial-of-service to break into government or private organization systems.
+
+PURPOSE OF HACKING
+
+* Just for fun
+* Show-off
+* Steal important information
+* Damaging the System
+* Money Extortion
+* System Security Testing
+* To Break policy Compliance
+
+ADVANTAGE OF HACKING
+
+Following are the advantages of Ethical Hacking as follows.
+
+* This helps to fight against cyber terrorism and to fight against national security breaches.
+* This helps to identify and close the open holes in a computer system or network.
+* To construct a computer system that prevents systems from hackers and malicious 
+ threat and at the same time protects them.
+* To perform penetration testing for finding vulnerability to strengthen the computer and network 
+ security.
+* To defend customer data and information present in business exchangesz
+
+DISADVANTAGE OF HACKING
+
+Following are the disadvantages of Ethical Hacking as follows.
+* This may corrupt the files or data of an organization.
+* They might use information gained for malicious use. Subsequently, trustful programmers are expected to 
+ have achievement in this framework.
+* By hiring such professionals will increase costs to the company.
